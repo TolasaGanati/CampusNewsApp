@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "compusNewsAndNoticeApp",
+    "slug": "compusnewsandnoticeapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tolasa.compusnewsandnoticeapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The photos"
+          }
+        ]
+      ],
+      "package": "com.tolasa.compusnewsandnoticeapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "tolasa",
+    "extra": {
+      "eas": {
+        "projectId": "9542702c-45db-4379-a8a0-3c99b9e0e335"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9542702c-45db-4379-a8a0-3c99b9e0e335"
+    }
+  }
+}
